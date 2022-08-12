@@ -120,6 +120,16 @@ color: var(--primary-text-color);
       clip-path: inset(50%);
       margin: -1px;
   }
+h3 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
 .paragraph {
 font-family: 'Roboto';
 font-style: normal;
