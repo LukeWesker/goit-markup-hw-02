@@ -12,6 +12,8 @@
     --primary-white-color: #FFFFFF;
     --primary-bg-color: #2F303A;
     --secondary-bg-color: #F5F4FA;
+    --main-bg-color: #FFFFFF;
+    --button-main-color: #188CE8;
 
 }
 body {
@@ -75,7 +77,7 @@ border-radius: 4px;
 }
 .modal-button:hover,
 .modal-button:focus {
-    background-color: #188CE8;
+    background-color: var(--button-main-color);
 }
 
 /* main */
@@ -120,7 +122,7 @@ color: var(--primary-text-color);
       clip-path: inset(50%);
       margin: -1px;
   }
-h3 {
+.caption-main {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
