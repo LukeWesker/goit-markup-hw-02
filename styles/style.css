@@ -146,7 +146,7 @@ letter-spacing: 0.03em;
 .main-team {
     background-color: var(--secondary-bg-color);   
     }
-    .team {
+.team {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
