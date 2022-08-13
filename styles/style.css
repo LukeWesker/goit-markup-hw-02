@@ -15,8 +15,6 @@
     --main-bg-color: #FFFFFF;
     --button-main-color: #188CE8;
     --logo-main-color: black;
-
-
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -31,7 +29,6 @@ button {cursor: pointer;}
 .logo {
 color: var(--logo-main-color);
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -42,7 +39,6 @@ letter-spacing: 0.03em;
 }
 
 /*   Навигация сайта */
-
 .site-nav a
 {
 color: var(--primary-text-color);
@@ -70,10 +66,10 @@ color: var(--primary-text-color);
 }
 ul {list-style: none;}
 .link {text-decoration: none;}
-/* Кнопка */
+
+/* Кнопки */
 .modal-button {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -90,11 +86,22 @@ border-radius: 4px;
 .modal-button:focus {
     background-color: var(--button-main-color);
 }
+.active-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    .active-button:hover,
+    .active-button:focus {
+        background-color: var(--acent-color);
+        color: var(--primary-white-color);
+    }
 
 /* main */
-
 .main-text {
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -107,7 +114,6 @@ color: var(--primary-white-color);
 background: var(--primary-bg-color);
 }
 .main-work {
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -116,7 +122,6 @@ letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
 }
-
 
 /* Преимущества */
 .visually-hidden {
@@ -132,7 +137,6 @@ color: var(--primary-text-color);
       margin: -1px;
   }
 .caption-main {
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -141,24 +145,20 @@ text-transform: uppercase;
 color: var(--primary-text-color);
 }
 .caption-portfolio {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color)
 }
+/* Paragraph */
 .paragraph {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 .paragraph-team {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -166,8 +166,6 @@ letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 .paragraph-portfolio {
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
@@ -179,7 +177,6 @@ color: var(--secondary-text-color);
     background-color: var(--secondary-bg-color);   
     }
 .team {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -196,7 +193,6 @@ color: var(--secondary-text-color);
     }
     
 .team-staff-igor {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -208,7 +204,6 @@ background: var(--primary-white-color);
 
 }
 .team-staff-olga {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -219,7 +214,6 @@ background: var(--primary-white-color);
     background: var(--primary-white-color);
 }
 .team-staff-mikola {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -231,7 +225,6 @@ color: var(--primary-text-color);
 background: var(--primary-white-color);
 }
 .team-staff-mihail {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -250,8 +243,6 @@ background: var(--primary-bg-color);
     color: var(--primary-white-color)
 }
 .address-link {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -265,17 +256,4 @@ color: var(--primary-white-color);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);  
 }
-.active-button {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-}
-.active-button:hover,
-.active-button:focus {
-    background-color: var(--acent-color);
-    color: var(--primary-white-color);
-}
+
